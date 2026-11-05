@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>VOXORA — Living Block Worlds</title>
+<link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+<div id="hud">
+ <div class="brand">VOXORA <small>Living Block Worlds</small></div>
+ <div class="topright"><span id="coords">X 0 · Y 0 · Z 0</span><select id="mode"><option>Creative</option><option>Survival</option><option>Adventure</option></select><select id="quality"><option>High</option><option>Performance</option><option>Ultra</option><option>Cinematic</option></select><button id="camera">Camera: First</button><button id="save">Save</button></div>
+ <div id="crosshair">＋</div><div id="hint">WASD move · Space jump · Mouse look · Left click break · Right click place · 1–6 select · V camera</div>
+ <div id="hotbar"></div><div id="inventory" class="hidden"><h3>Inventory <button id="closeInv">×</button></h3><div id="invItems"></div></div>
+ <div id="mobile"><div id="stick"><div id="nub"></div></div><div class="mobBtns"><button id="mJump">↑</button><button id="mBreak">Break</button><button id="mPlace">Place</button><button id="mInv">Bag</button></div></div>
+ <div id="toast"></div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body></html>
